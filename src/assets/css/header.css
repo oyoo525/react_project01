@@ -1,3 +1,7 @@
+.linkText {
+	text-decoration : none;
+}
+
 header {
 	width : 100%;
 	padding : 0 52px 0 52px;
@@ -9,11 +13,12 @@ header {
 }
 
 .logo {
-	height : 100%;
+	width: 100px;
+	height: 100%;
 }
 
 .searchForm {
-	width : 55vw;
+	width : calc(100% - 550px);
 	height : 80%;
 	vertical-align : 17px;
 	border : none;
@@ -32,9 +37,8 @@ header {
 	font-size : 24px;
 	color : #FFFFFF;
 }
-
 .searchInput {
-	width : calc(100% - 320px);
+	width : 100%;
 	height : 100%;
 	background-color : transparent;
 	border : none;
@@ -53,25 +57,116 @@ input::placeholder {
 .searchSelect {
 	width : 220px;
 	display : flex;
-	justify-content : center;
+	justify-content : space-between;
 	align-items : center;
+	padding: 0 24px;
 	color: #FFFFFF;
+	position: relative;
+}
+.searchOption {
+	display: none;
+	position : absolute;
+	top : 0;
+	right: 0;
+	background-color: #3C8FDD;
+	width: 100%;
+	border-radius: 12px;
+	padding: 10px 24px;
+	line-height: 180%;
+}
+.searchOption > ul, li {
+	list-style: none;
+}
+.optionTitle {
+	font-weight: 700;
+	line-height: 250%;
+	display: flex;
+	justify-content: space-between;
+}
+.selectOption {
+	text-decoration: none;
+	width: 100%;
+}
+.text-white {
+	color : #FFF;
+}
+.selectOption:hover {
+	color : black;
+}
+.optionContent {
+	padding-left: 20px;
+}
+.searchSelect:hover {
+	cursor : pointer;
 }
 
-.linkText {
-	text-decoration : none;
+.member {
+	display: flex;
+	justify-content: space-between;
+	width: 160px;
+}
+.text-blue {
 	color : #3C8FDD;
+	font-weight: bolder;
+	width: 80px;
+	text-align: center;
+}
+.member-icon {
+	display: none;
+	width: 60px;
+	text-align: center;
+}
+.bi-person-circle {
+	width: 100%;
+	font-size: 42px;
+	color: #6FBEEE;
 }
 
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+}
 .btn-blue {
 	padding : 16px;
 	background-color : #3C8FDD;
-	font-weight : bold;
+	font-weight : bolder;
 	color : white;
 }
 .btn-outline-blue {
 	padding : 16px;
 	border : 1px solid #3C8FDD;
-	font-weight : bold;
+	font-weight : bolder;
 	color : #3C8FDD;
+}
+
+@media screen and (max-width: 1024px) {
+	header {
+		padding : 0 24px;
+	}
+	.buttons {
+		display: none;
+	}
+	.searchForm {
+		width: calc(100% - 260px);
+		justify-content: left;
+	}
+	.searchText {
+		display: none;
+	}
+	.searchSelect {
+		display: none;
+	}
+}
+
+@media screen and (max-width : 576px) {
+	.member-icon {
+		display: block;
+	}
+	.member {
+		display: none;
+	}
+	.searchForm {
+		width: calc(100% - 160px);
+	}
 }

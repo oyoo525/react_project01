@@ -3,7 +3,8 @@
 >  개발기간 : 2024.02.12 ~
 
 ## 사용기술
-React, React-Router-DOM, Typescript, JSX, CSS
+React, React-Router-DOM, Typescript, JSX, CSS, 
+bootstrap, bootstrap-icon
 
 ## 개발환경
 - React
