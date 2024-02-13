@@ -37,6 +37,13 @@
   }
 }
 
+/* 추가 설정 css */
 * {
   box-sizing: border-box;
+}
+
+input:focus {outline : none;}
+Link {
+  text-decoration: none;
+  color : black;
 }

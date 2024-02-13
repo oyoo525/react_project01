@@ -10,7 +10,7 @@ export default function Home() {
 			justifyContent : "center",
 			textAlign : "center",
 			padding : "5vw",
-			backgroundColor : "lightblue"
+			backgroundColor : "#DDEAF3"
 		}}>
 			<div>
 				<span style={{

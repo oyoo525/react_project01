@@ -1,0 +1,77 @@
+header {
+	width : 100%;
+	padding : 0 52px 0 52px;
+	height : 71px;
+	background-color : #DDEAF3;
+	display : flex;
+	justify-content: space-between;
+	align-items : center;
+}
+
+.logo {
+	height : 100%;
+}
+
+.searchForm {
+	width : 55vw;
+	height : 80%;
+	vertical-align : 17px;
+	border : none;
+	border-radius : 12px;
+	background-color : #6FBEEE;
+	display : flex;
+	justify-content : space-between;
+}
+
+.searchIcon {
+	width : 70px;
+	background-color : transparent;
+	border: none;
+}
+.bi-search-heart-fill {
+	font-size : 24px;
+	color : #FFFFFF;
+}
+
+.searchInput {
+	width : calc(100% - 320px);
+	height : 100%;
+	background-color : transparent;
+	border : none;
+}
+input::placeholder {
+	color : #FFFFFF
+}
+
+.searchText {
+	width : 30px;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	color: #FFFFFF;
+}
+.searchSelect {
+	width : 220px;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	color: #FFFFFF;
+}
+
+.linkText {
+	text-decoration : none;
+	color : #3C8FDD;
+}
+
+.btn-blue {
+	padding : 16px;
+	background-color : #3C8FDD;
+	font-weight : bold;
+	color : white;
+}
+.btn-outline-blue {
+	padding : 16px;
+	border : 1px solid #3C8FDD;
+	font-weight : bold;
+	color : #3C8FDD;
+}
