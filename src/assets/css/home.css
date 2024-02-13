@@ -1,0 +1,102 @@
+.whole {
+	width : 100vw;
+	justify-content : center;
+	text-align : center;
+	padding : 5vw;
+	background-color : #DDEAF3;
+}
+
+.title {
+	font-size : 10vw;
+	font-weight : bold;
+	text-align : center;
+}
+.sub-title {
+	font-size : 2.5vw;
+	color : gray;
+}
+
+.user-wrap {
+	position : relative;
+	width : 90vw;
+	height : 50vw;
+	overflow : hidden;
+	border-radius : 15px;
+	margin : auto;
+	margin-top : 4vw;
+	margin-bottom : 9vw;
+}
+.user-wrap:hover {
+	.back-img {
+		opacity: 0.7;
+	}
+	.user-btn {
+		display: flex;
+	}
+}
+.back-img {
+	width : 100%;
+}
+.user-carousel {
+	position : absolute;
+	z-index : 8;
+	bottom : 0;
+	left: 0;
+	width : 30%;
+	height: 30%;
+	display : flex;
+	justify-content : left;
+	align-items : left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	color : white;
+}
+
+
+
+
+
+
+
+.user-btn {
+	position : absolute;
+	z-index : 10;
+	top : 0;
+	bottom : 0;
+	width : 100%;
+	display : none;
+	justify-content : center;
+	align-items : center;
+}
+.btn-border {
+	border : 3px solid #FFF;
+	border-radius : 10px;
+	width : 20%;
+	height : 10%;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+.btn-name {
+	font-size : 2vw;
+	font-weight : bold;
+	color : #FFF;
+}
+.under-title {
+	display : flex;
+	justify-content : center;
+	text-decoration : none;
+	color : black;
+}
+.bi-arrow-up-right-square-fill {
+	font-size : 24px;
+}
+.underline {
+	text-decoration-line : underline;
+	color : pink;
+}
+.under-title-text {
+	color : black;
+	font-size : 24px;
+	margin : 0 4px;
+}

@@ -48,14 +48,14 @@ input::placeholder {
 }
 
 .searchText {
-	width : 30px;
+	width : 40px;
 	display : flex;
 	justify-content : center;
 	align-items : center;
 	color: #FFFFFF;
 }
 .searchSelect {
-	width : 220px;
+	width : 210px;
 	display : flex;
 	justify-content : space-between;
 	align-items : center;
@@ -132,6 +132,11 @@ input::placeholder {
 	background-color : #3C8FDD;
 	font-weight : bolder;
 	color : white;
+}
+.btn-blue:hover, .btn-outline-blue:hover {
+	color: #FFF;
+	background-color: #B9BC88;
+	border: 1px solid  #B9BC88;
 }
 .btn-outline-blue {
 	padding : 16px;
